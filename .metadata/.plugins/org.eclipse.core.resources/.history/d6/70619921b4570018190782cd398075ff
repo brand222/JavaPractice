@@ -1,0 +1,11 @@
+package basics;
+
+public class whileLoops {
+
+	int number = 3;
+	
+	while (number < 20){
+		System.out.println(number);
+	}
+	number++;
+}

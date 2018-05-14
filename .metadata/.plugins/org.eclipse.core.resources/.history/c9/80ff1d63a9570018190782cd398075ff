@@ -1,0 +1,10 @@
+//Any time you write java, you must have a class name
+public class helloWorld {
+	/*This is the main method. It is the entry-point to your programs that 
+	 *you are writing.
+	 */
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		}
+	}
+

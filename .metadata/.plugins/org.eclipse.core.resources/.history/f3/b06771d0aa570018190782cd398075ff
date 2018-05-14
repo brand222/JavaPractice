@@ -1,0 +1,12 @@
+package basics;
+
+public class variables {
+	public static double aDoubleNumber = 2.3;
+	int anIntNumber = 4;
+	
+	public static void main(String[] args) {
+		System.out.println(aDoubleNumber);
+	}
+	
+	
+}
