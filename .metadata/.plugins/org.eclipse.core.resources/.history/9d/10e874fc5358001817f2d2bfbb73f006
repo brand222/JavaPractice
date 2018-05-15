@@ -1,0 +1,18 @@
+package basics;
+/*
+ * The do while loop executes the body before it even gets to the test condition.
+ * The loop will execute AT LEAST once before getting to the condition of whether
+ * the body should execute or not.
+ */
+public class doWhileLoop {
+
+	public static void main(String[] args) {
+		int i = 0;
+		
+		do{
+			System.out.println(i);
+			i++;
+		}
+		while (i <= 10);
+	}
+}
