@@ -6,8 +6,9 @@ public class whileLoops {
  * Notice that the counter variable is inside the while loop block.
  */
 	public static void main(String[] args) {
+		//initialize our counter variable
 		int counter = 0;
-		
+		//while the counter variable is less than or equal to 20, print out the number and increment by 1
 		while (counter <= 20){
 			System.out.println(counter);
 			counter++;
