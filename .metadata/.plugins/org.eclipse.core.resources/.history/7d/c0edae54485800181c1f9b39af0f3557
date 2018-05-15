@@ -1,0 +1,13 @@
+package basics;
+
+/*A conditonal operator is another way to use an 'if' statement but 
+ * it is really compact and small.
+ */
+public class conditionalOperators {
+
+	public static void main(String[] args) {
+		int score 21;
+		//if the condition is true, we will execute the first option (to the right of the /'?'
+		System.out.println(score >= 70 ? "You passed" : "You failed");
+	}
+}
