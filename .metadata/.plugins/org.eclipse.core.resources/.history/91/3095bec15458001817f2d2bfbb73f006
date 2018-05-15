@@ -1,0 +1,14 @@
+package basics;
+
+public class mathClassMethods {
+
+	
+	public static void main(String[] args) {
+		//absolute value example
+		System.out.println(Math.abs(-26.7));
+		//math.ceil will always round the number up
+		System.out.println(Math.ceil(4.2));
+		//math.floor will always round the number down
+		System.out.println(Math.floor(2.9));
+	}
+}
