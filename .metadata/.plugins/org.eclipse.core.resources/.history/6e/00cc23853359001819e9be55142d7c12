@@ -11,8 +11,6 @@ public class otherTime {
 		t.setTime(3, 10, 58);
 		//print out the military time for passed pararmeters into setTime()
 		System.out.println(t.toMilitary());
-		
-		System.out.println(t.toNormalTime());
 	}
 
 	
