@@ -1,0 +1,16 @@
+package basics;
+
+import java.util.Random;
+
+public class arrayElementsAsCounters {
+
+	public static void main(String[] args) {
+		Random rando = new Random();
+		int freq[] = new int[7];
+
+		for (int roll = 1; roll < 1000; roll++) {
+			++freq[1 + rando.nextInt(6)];
+		}
+	}
+
+}
