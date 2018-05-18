@@ -1,0 +1,15 @@
+package basics;
+
+public class accessModifiers {
+
+	/*
+	 * Private variables: This means that only the methods in the same class,
+	 * can use private variables Any time you have the same variables in a method
+	 * or constructor, java looks at the local variables instead of the
+	 * variables inside the method. If a method contains a local variable with
+	 * the same name as the field names, it will always default to the private
+	 * variables. When you use the 'this' keyword, then you are using the actual
+	 * parameter variables inside your method
+	 */
+
+}

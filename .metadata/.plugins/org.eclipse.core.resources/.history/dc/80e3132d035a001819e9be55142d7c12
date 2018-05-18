@@ -1,0 +1,66 @@
+package multipleConstructors;
+
+public class clock {
+	//these variables are only meant to be used in this particular class
+private int hour;
+private int minute;
+private int second;
+
+
+/*
+ * Each one of these are constructors
+ * You can build different constructors depending on how much info the user enters
+ */
+//constructor with no arguments
+public clock() {
+	this(0,0,0);
+}
+//constructor with 1 argument
+public clock(int h) {
+	this(h,0,0);
+}
+//constructor with 2 arguments
+public clock(int h, int m) {
+	this(h, m, 0);
+}
+
+//constructor with 3 arguments
+public clock(int h, int m, int s) {
+	setTime(h,m,s);
+}
+
+public void setTime(int h, int m, int s) {
+	setHour(h);
+	setMinute(m);
+	setSecond(s);
+}
+
+public void setHour(int h){
+	hour = ((h >=0 && h < 24 ) ? h : 0);
+}
+
+public void setMinute(int m){
+	minute = ((m >=0 && m < 60 ) ? m : 0);
+}
+
+public void setSecond(int s){
+	second = ((s >=0 && s < 60 ) ? s : 0);
+}
+
+public int getHour() {
+	return hour;
+}
+
+public int getMinute() {
+	return minute;
+}
+
+public int getSecond() {
+	return second;
+}
+//here we built all the methods we need to call inside of a single function
+public String toMilitary() {
+	return String .format("%02d:%02d:%02d", getHour(), getMinute(), getSecond());
+}
+
+}

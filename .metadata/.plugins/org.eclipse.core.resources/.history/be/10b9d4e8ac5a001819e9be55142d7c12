@@ -1,0 +1,23 @@
+package basics;
+//enums are constants that are also objects.
+public enum enumerations {
+brandon("nice", "28"),
+lara("helpful", "13"),
+lisa("heartbreak", "26");
+	
+private final String DESC;
+private final String YEAR;
+
+enumerations(String description, String Year) {
+	DESC = description;
+	YEAR = Year;
+}
+//these are the constructors for the enumerations
+public String getDesc() {
+	return DESC;
+}
+
+public String getYear() {
+	return YEAR;
+}
+}

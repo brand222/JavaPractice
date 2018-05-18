@@ -1,0 +1,17 @@
+package multipleConstructors;
+
+public class clockParts {
+
+	public static void main(String[] args) {
+		
+		clock clockObject = new clock();
+		clock clockObject2 = new clock(5);
+		clock clockObject3 = new clock(5, 13);
+		clock clockObject4 = new clock(5, 13, 43);
+		
+		System.out.printf("%s\n", clockObject.toMilitary());
+		System.out.printf("%s\n", clockObject2.toMilitary());
+		System.out.printf("%s\n", clockObject3.toMilitary());
+		System.out.printf("%s\n", clockObject4.toMilitary());
+	}
+}

@@ -27,7 +27,18 @@ public class time {
 	}
 	
 	public String toNormalTime() {
+		//firstly, we created a formated string that we are returning.
+		//%d: means 1 decimal place separated by a colon
+		//%02d: the minute will have 2 decimal places separated by a colon
+		//%02d: means 2 decimal places separated by a colon
+		//$s means that the 'AM' or 'PM' is just a string
 		
+		/*
+		 * Then we say: If hour is exactly equal to 0 or 12, make it 12
+		 * If they put anything else, divide it by 12 and give our remainder (i.e. if they put 18, make it 1)
+		 * Pass the minute and second variables
+		 * If the hour is less than 12, make it AM, otherwise, make it PM
+		 */
 		return String.format("%d:%02d:%02d %s", ((hour==0 || hour ==12 ? 12 : hour%12)), minute, second, (hour < 12 ? "AM" : "PM"));
 	}
 }
