@@ -10,14 +10,12 @@ public class switchStatements {
 		int age;
 
 		age = 3;
-		//here we are looking at the age variable
+
 		switch (age) {
-		//if age is equal to 1 then do this 
 		case 1:
 			System.out.println("You can crawl");
 			break;
 		case 2:
-			//if age is equal to 2 then do this etc...
 			System.out.println("You can talk");
 			break;
 		case 3:

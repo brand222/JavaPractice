@@ -13,7 +13,6 @@ public class methodsAndInstances {
 	public String getName() {
 		return girlName;
 	}
-	//in this method, we call the getName() method
 	public void saying() {
 		System.out.printf("Your first gf was %s", getName());
 	}
