@@ -1,0 +1,10 @@
+package staticVariables;
+
+public class apples {
+
+	public static void main(String[] args) {
+		tuna member1 = new tuna("Gal", "Gadot");
+		tuna member2 = new tuna("Kristin", "Kreuk");
+		tuna member3 = new tuna("Margot", "Robbie");
+	}
+}

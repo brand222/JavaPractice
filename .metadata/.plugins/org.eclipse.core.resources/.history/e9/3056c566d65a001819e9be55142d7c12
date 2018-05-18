@@ -1,0 +1,35 @@
+package eventHandling;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+//this gives us all the attributes and methods of a window so we can use it
+public class eventHandlingExample extends JFrame {
+	
+	private JTextField txtField1;
+	private JTextField txtField2;
+	private JTextField txtField3;
+	private JPasswordField passwordField;
+	
+	public eventHandlingExample() {
+		super("The title");
+		setLayout(new FlowLayout());
+		//here we create our first textfield
+		txtField1 = new JTextField(10);
+		//here we are adding our textfield to the GUI
+		add(txtField1);
+		//this will give you default text in the field
+		txtField2 = new JTextField("Enter text here");
+		add(txtField2);
+		txtField3 = new JTextField("uneditable", 20);
+		//here we are making a textfield un-editable
+		txtField3.setEditable(false);
+		add(txtField3);
+		
+		passwordField = new JPasswordField("mypass");
+		add(passwordField);
+	}
+}

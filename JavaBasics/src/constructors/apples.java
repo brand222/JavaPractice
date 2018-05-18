@@ -3,7 +3,7 @@ package constructors;
 public class apples {
 	
 	public static void main(String[] args) {
-		tuna tunaObject = new tuna("Kelsey)");
+		tuna tunaObject = new tuna("Kelsey");
 		tunaObject.saying();
 	}
 
