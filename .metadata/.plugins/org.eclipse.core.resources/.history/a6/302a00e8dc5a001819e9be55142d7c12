@@ -2,7 +2,7 @@ package eventHandling;
 import javax.swing.JFrame;
 
 public class mainClass {
-//here is the entrypoint to our GUI application
+
 	public static void main(String[] args) {
 		
 		eventHandlingExample gui = new eventHandlingExample();
