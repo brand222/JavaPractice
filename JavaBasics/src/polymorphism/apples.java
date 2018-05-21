@@ -29,10 +29,15 @@ public class apples {
 		System.out.println();
 		// here we create a new fatty object named me
 		fatty me = new fatty();
+		// here we created a new generic food object
 		food fo = new food();
+		// notice that we created a food object of type potpie here
 		food po = new potpie();
 		// here is an example of passing in an object into a method
 		me.digest(fo);
 		me.digest(po);
+		// each time we pass in a different object type to the method, the
+		// output will be different
+
 	}
 }
