@@ -1,4 +1,5 @@
 package advancedArrays;
+
 /*
  * This program demonstrates how to create a multidimensional array and to set or access
  * specific items within those arrays.
@@ -20,6 +21,8 @@ public class multidimensionalArrays {
 		//secondArray[1][0] = 43
 		//secondArray[2][0] = 4
 		
+		int thirdArray[][]= {{2, 3, 5, 4}, {2, 2, 3, 4}};
+		
 		System.out.println("This is the first array:");
 		//call the method
 		displayMArray(firstArray);
@@ -27,19 +30,22 @@ public class multidimensionalArrays {
 		System.out.println("this is the second array: ");
 		//call the method
 		displayMArray(secondArray);
+		
+		System.out.println("This is third array");
+		displayMArray(thirdArray);
 	}
-	
+
 	public static void displayMArray(int x[][]) {
-		//loop through rows
-		for (int row = 0; row < x.length; row++){
-			//loop through columns
-			for (int column = 0; column< x[row].length; column++){
-				//here we are just printing the row
+		// loop through rows
+		for (int row = 0; row < x.length; row++) {
+			// loop through columns
+			for (int column = 0; column < x[row].length; column++) {
+				// here we are just printing the row
 				System.out.print(x[row][column] + "\t");
 			}
-			//once we get to the end of the row, we create a new line
+			// once we get to the end of the row, we create a new line
 			System.out.println();
 		}
-		
+
 	}
 }
