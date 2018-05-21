@@ -2,7 +2,7 @@ package polymorphism;
 
 /*
  * What is polymorphism? 
- * 
+ * The ability to present the same interface for differing underlying forms(datatypes)
  */
 public class apples {
 
