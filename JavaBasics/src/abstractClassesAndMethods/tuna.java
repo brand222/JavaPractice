@@ -8,5 +8,4 @@ public class tuna extends food {
 		System.out.println("Yum! I just same some tuna!");
 		
 	}
-
 }
