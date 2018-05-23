@@ -10,6 +10,7 @@ public class readingFromFiles {
 	// here we are opening the file
 	public void openFile() {
 		try {
+			//set x equal to 
 			x = new Scanner(new File("\\test\\chinese.txt"));
 		} catch (Exception e) {
 			System.out.println("Could not find file");
