@@ -1,9 +1,0 @@
-package advancedArrays;
-
-public class arraysInMethods {
-
-	
-	public static void main(String[] args) {
-		
-	}
-}
