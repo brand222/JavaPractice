@@ -1,4 +1,4 @@
-package Stacks;
+package dataStructures;
 import java.util.*;
 public class stackPushPop {
 //pushing means we are putting something on top of the stack
