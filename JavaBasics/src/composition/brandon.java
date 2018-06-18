@@ -1,5 +1,8 @@
 package composition;
 
+/* 
+ * Composition is when you reference another object through your class.
+ */
 public class brandon {
 	private String name;
 	private people birthday;
