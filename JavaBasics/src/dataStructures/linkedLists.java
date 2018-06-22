@@ -7,10 +7,12 @@ public class linkedLists {
 		//here is our array
 		String[] things = {"pizza", "tikka", "thai", "chili", "tacos"};
 		List<String> list1 = new LinkedList<String>();
+		
 		//here we are feeding the array items into the list
 		for (String x : things) {
 			list1.add(x);
 		}
+		
 		//heres our other array
 		String[] things2 = {"sausage", "crepes", "cake", "harrypotter"};
 		List<String> list2 = new LinkedList<String>();
