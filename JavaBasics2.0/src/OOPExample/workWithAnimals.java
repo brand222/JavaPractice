@@ -1,8 +1,11 @@
 package OOPExample;
 
 public class workWithAnimals {
+	
 
 	public static void main(String[] args) {
+		
+		
 		
 		Dog fido = new Dog();
 		
@@ -37,7 +40,9 @@ public class workWithAnimals {
 		
 		//here we are casting this doggy variable to type Dog
 		//digHole method is not accessible unless we cast
+		//animal class only knows about methods in animal class
 		((Dog)doggy).digHole();
+		
 		
 	}
 	//what does static mean? 
