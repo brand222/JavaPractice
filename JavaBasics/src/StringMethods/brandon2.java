@@ -29,5 +29,6 @@ public class brandon2 {
 		
 		//trim method gets rid of spaces from the beginning and the end of the string
 		System.out.println(b.trim());
+		
 	}
 }
