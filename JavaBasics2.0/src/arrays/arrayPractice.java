@@ -45,9 +45,6 @@ public class arrayPractice {
 		
 		
 		
-		
-		
-
 		// multidimensional array example
 		/*
 		 * Here is an example of assigning values to a multi-dimensional array
