@@ -70,6 +70,7 @@ public class Monster {
 		Monster frank = new Monster();
 		
 		System.out.println(frank.attack);
+		System.out.println(frank.health);
 	}
 	
 	
