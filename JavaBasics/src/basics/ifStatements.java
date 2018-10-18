@@ -14,8 +14,8 @@ public class ifStatements {
 		Scanner input = new Scanner(System.in);
 		String name = input.nextLine();
 		//if the user's input equals "brandon" then print out welcome!
-		if (name.equals("brandon")) {
-			System.out.println("Welcome " + name + " !!!");
+		if (name.equalsIgnoreCase("brandon")) {
+			System.out.println("Welcome " + name.toLowerCase() + " !!!");
 			//otherwise, tell the user they are not brandon
 		} else {
 			System.out.println("You are not Brandon...");

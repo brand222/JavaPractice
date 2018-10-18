@@ -9,7 +9,8 @@ lisa("heartbreaking", "24"),
 ellen("just about sex", "22"),
 caro("dishonest", "26"),
 lauren("not for me", "25"),
-sarah("not ready", "23");
+sarah("not ready", "23"),
+effrosini("perfect for me", "27");
 
 	//here we created 2 enum constant variables
 private final String DESC;
