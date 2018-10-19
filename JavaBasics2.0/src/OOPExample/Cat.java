@@ -6,5 +6,7 @@ public class Cat extends Animal {
 		super();
 		
 		setSound("MEOW");
+		setHeight(25);
+		setName("PUFFY");
 	}
 }
