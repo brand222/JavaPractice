@@ -6,7 +6,7 @@ public class regex {
 
 	public static void main(String[] args) {
 		
-		String longString = "Brandon McDonald TX 12345 Feathergrass Ct Austin brandonmcdonald FE BR";
+		String longString = "Brandon McDonald TX  212-293-9495 Feathergrass Ct Austin brandonmcdonald FE BR 713 829 3638 (713-493-2348";
 		String strangeString = "1Z aaa **** ** {{{ {{ { ";
 		
 		//[A-Z]
@@ -33,9 +33,14 @@ public class regex {
 		// +
 		// . ^ * + ?{} [] \ | () - these always need to be backslashed
 		
-		regexChecker("(\\{{1,})", strangeString);
+		//regexChecker("(\\{{1,})", strangeString);
 		
+		//regexChecker("\\sjohnsmith@hotmail.com", longString);
 		
+		//extracts all the phone numbers
+		regexChecker("(\\d+-\\d+-\\d+|\\d+\\s+\\d+-\\d+|\\d+\\s+\\d+\\s+\\d+)", longString);
+		//extracts states
+		//regexChecker("\\d.+\\s", strangeString);
 	}
 	
 	public static void regexChecker(String theRegex, String str2Check) {
@@ -56,3 +61,14 @@ public class regex {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+/***************************/
