@@ -9,6 +9,8 @@ public class regex {
 		String longString = "Brandon McDonald TX  212-293-9495 Feathergrass Ct Austin brandonmcdonald FE BR 713 829 3638 (713-493-2348";
 		String strangeString = "1Z aaa **** ** {{{ {{ { ";
 		
+		
+		
 		//[A-Z]
 		//[0-9]
 		//[^A-G]
@@ -37,7 +39,7 @@ public class regex {
 		
 		//regexChecker("\\sjohnsmith@hotmail.com", longString);
 		
-		//extracts all the phone numbers
+		//extracts all the phone numbers (regardless spaces and dashes)
 		regexChecker("(\\d+-\\d+-\\d+|\\d+\\s+\\d+-\\d+|\\d+\\s+\\d+\\s+\\d+)", longString);
 		//extracts states
 		//regexChecker("\\d.+\\s", strangeString);
@@ -62,13 +64,3 @@ public class regex {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-/***************************/

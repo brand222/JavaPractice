@@ -67,6 +67,7 @@ public class stringBuilders {
 		/*
 		 * Substring
 		 * 
+		 * (2, 4) = Starting at index position 2, grab the next 4 characters
 		 */
 		
 		System.out.println(letters.substring(1, 4));
